@@ -1,0 +1,16 @@
+bfh:
+  api:
+    base-url: https://bfhldevapigw.healthrx.co.in/hiring
+    generate-webhook: ${bfh.api.base-url}/generateWebhook/JAVA
+    test-webhook: ${bfh.api.base-url}/testWebhook/JAVA
+    
+user:
+  name: "Shubham Raj Sharma"
+  email: "shubhamraj1414@gmail.com"
+  registration: "22BCY10200"
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    com.bfh: DEBUG
